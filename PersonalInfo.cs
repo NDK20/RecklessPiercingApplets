@@ -1,6 +1,5 @@
 using System;
-
-class Program {
+class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine("Lucinda Potter");
     Console.WriteLine("6/24/1992");
