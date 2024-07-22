@@ -1,6 +1,8 @@
 using System;
-
-class Program {
+namespace Perfect 
+{
+    class Program 
+  {
      static void Main(string[] args) 
     {
         Console.WriteLine("Enter a number to check if it is perfect or not: ");
@@ -27,4 +29,5 @@ class Program {
         }
     return sum == n;
     }
+  }
 }
