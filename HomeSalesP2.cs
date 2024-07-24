@@ -1,5 +1,7 @@
 using System;
 
+namespace HomeSalesP2
+{
     class Program
     {
         static void Main()
@@ -58,3 +60,4 @@ using System;
             Console.WriteLine($"Highest sale: {highestSalesperson}");
         }
     }
+}
