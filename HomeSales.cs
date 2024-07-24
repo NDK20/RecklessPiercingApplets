@@ -1,5 +1,7 @@
 using System;
 
+namespace HomeSales
+{
     class Program
     {
         static void Main()
@@ -34,7 +36,7 @@ using System;
             decimal grandTotal = salesD + salesE + salesF;
             string highestSalesPerson = "";
             decimal highestSales = 0;
-
+            
             if (salesD >= salesE && salesD >= salesF) { highestSalesPerson = "D"; highestSales = salesD; }
             if (salesE >= salesD && salesE >= salesF) { highestSalesPerson = "E"; highestSales = salesE; }
             if (salesF >= salesD && salesF >= salesE) { highestSalesPerson = "F"; highestSales = salesF; }
@@ -45,3 +47,4 @@ using System;
             Console.WriteLine("Highest total: {0}", highestSalesPerson);
          }
     }
+}
