@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+namespace TemperaturesComparison 
+{
     class Program 
     {
         static void Main()
@@ -60,6 +62,9 @@ using System.Collections.Generic;
             }
             averageTemp /= numberOfTemperatures;
             Console.WriteLine($"Average Temperature: {averageTemp:0.00} degrees");
+    
         }
     }
-    
+}
+
+
